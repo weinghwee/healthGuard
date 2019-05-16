@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="um.healthguard.healthguard_nov">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.stepcounter"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.stepdetector"
+        android:required="true" />
+    ﻿
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hglogo_blue"
+        android:label="HealthGuard"
+        android:roundIcon="@drawable/hglogo_blue"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BMIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reminders"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".AlarmNotificationReceiver"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".mainArticles"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArticleDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".workout_main" />
+        <activity android:name=".displayExercise" />
+        <activity android:name=".displayTimer" />
+        <activity android:name=".StepCount" />
+        <activity android:name=".teststep"></activity>
+    </application>
+
+</manifest>

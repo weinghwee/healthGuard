@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">healthGuard-Nov</string>
+    <string name="email_hint">Your email...</string>
+    <string name="pw_hint">Password...</string>
+    <string name="login_signIn">Login to account</string>
+    <string name="login_signUp">Need a new account?</string>
+    <string name="signup_test">signuptest</string>
+    <string name="main_account_setting">Accout Setting</string>
+    <string name="tool_signout">Log out</string>
+    <string name="reg_create">Create new account</string>
+    <string name="reg_already">Already have an account?</string>
+    <string name="reg_confirmpass">Confirm password...</string>
+    <string name="main_articles_text">Articles</string>
+    <string name="main_health">Health Monitoring</string>
+    <string name="main_bmi">BMI calculator</string>
+    <string name="main_alarm">Reminders</string>
+    <string name="acc_name">Your name...</string>
+    <string name="acc_button">Save account setting</string>
+    <string name="acc_height">Your height(cm)</string>
+    <string name="acc_weight">Your weight...(kg)</string>
+    <string name="acc_height2">Your height...(cm)</string>
+    <string name="remind_drink">Time to drink...</string>
+    <string name="remind_interval">Interval(minutes) :</string>
+    <string name="drink_but">Set</string>
+    <string name="drink_cancel">Cancel</string>
+    <string name="reminders">Set Reminder</string>
+    <string name="reminder_content">Content for reminder....</string>
+    <string name="interval_notice">Interval :</string>
+    <string name="hours">in hours...</string>
+    <string name="mins_interval">in minutes...</string>
+    <string name="new_article_but">Browse</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
